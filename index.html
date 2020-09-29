@@ -12,12 +12,18 @@
     <p id="description"> This is a survey form for microverse trials</p>
 
 <form id ="survey-form">
-<label id="survey-name" for="name" >Name <br> <input  id="name"type="text" name="name" required > </label>
+<label id="name-label" for="name" >Name <br> <input  id="name"type="text" name="name" placeholder="Type your name here" required > </label>
 <br>
 <label id="email-label" for="email">Email</label>
-<input id="email" name="email" type="email" placeholder="Your email here" required> <br>
+<input id="email" name="email" type="email" placeholder="Type your email here" required> <br>
 
-<label id="survey-num" for="number" >Number<br> <input  id="number" type="number" min="0" max="100"required > </label>
+<label id="number-label" for="number" >Number<br> <input  id="number" type="number" min="0" max="100" placeholder="Type your number here" required > </label>
+<br>
+<select id="dropdown">
+  <option value="option one">One</option>
+  <option value="option two">Two</option>
+  <option value="option three">Three</option>
+</select>
 </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
