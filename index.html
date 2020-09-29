@@ -12,30 +12,40 @@
     <p id="description"> This is a survey form for microverse trials</p>
 
 <form id ="survey-form">
-<label id="name-label" for="name" >Name <br> <input  id="name"type="text" name="name" placeholder="Type your name here" required > </label>
+  <div>
+<label id="name-label" for="name" >Name <input  id="name"type="text" name="name" placeholder="Type your name here" required > </label> </div>
 <br>
+<div>
 <label id="email-label" for="email">Email</label>
-<input id="email" name="email" type="email" placeholder="Type your email here" required> <br>
-
-<label id="number-label" for="number" >Number<br> <input  id="number" type="number" min="0" max="100" placeholder="Type your number here" required > </label>
+<input id="email" name="email" type="email" placeholder="Type your email here" required> </div> <br>
+<div>
+<label id="number-label" for="number" >Number <input  id="number" type="number" min="0" max="100" placeholder="Type your number here" required > </label></div>
 <br>
+<div>
 <select id="dropdown">
   <option value="option one">One</option>
   <option value="option two">Two</option>
   <option value="option three">Three</option>
 </select>
+</div>
+<div>
 <ul>
- <label> Name<br><input type="radio" name="group-name" value="name"></label><br>
-<label>Number<br><input type="radio" name="group-name" value="number"></label><br>
-<label>Email<br><input type="radio" name="group-name" value="email"></label>
+ <label> <input type="radio" name="group-name" value="name">Name</label><br>
+<label><input type="radio" name="group-name" value="number">Number</label><br>
+<label><input type="radio" name="group-name" value="email">Email</label>
 </ul>
-<label >Name <br><input type="checkbox" value="name"></label><br>
-<label >Number <br><input type="checkbox" value="number"></label><br>
-<label >Email <br><input type="checkbox" value="Email"></label>
+</div>
+<div>
+<label ><input type="checkbox" value="name">Name</label><br>
+<label ><input type="checkbox" value="number">Number</label><br>
+<label ><input type="checkbox" value="Email">Email <br></label>
 <br>
-<label >Add additional comments here<br> <textarea id="comments" name="comments" rows="3" cols="10"></textarea></label>
+</div>
+<div>
+<label >Add additional comments here<br> <textarea id="comments" name="comments" rows="3" cols="10"></textarea></label></div>
 <br>
-<input id="submit" type="submit" value="submit">
+<div>
+<input id="submit" type="submit" value="submit"></div>
 </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
